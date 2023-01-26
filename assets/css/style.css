@@ -441,8 +441,12 @@ a:hover, a:focus, a:active {
 .footer-bottom {
   background: #b65fcf;
   padding: 3px;
+  align-items: center;
 }
-
+.footer-bottom .row{
+  background: #b65fcf;
+  padding: 3px;
+}
 .footer-form .form-group {
   margin-bottom: 5px;
 }
