@@ -256,6 +256,10 @@ a:hover, a:focus, a:active {
   min-height: 80px;
 }
 
+.top-img {
+  padding-top: 100px;
+}
+
 /* home/reasons 
 ================================= */
 .home-reasons {
