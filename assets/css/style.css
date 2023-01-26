@@ -183,6 +183,10 @@ a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
+.home-abt {
+  margin-top: 80px;
+}
+
 /* What we aim to achieve */
 .w4w-achieve .aoi {
   text-align: center;
@@ -254,6 +258,10 @@ a:hover, a:focus, a:active {
   text-align: justify;
   margin-bottom: 25px;
   min-height: 80px;
+}
+
+.top-img {
+  padding-top: 100px;
 }
 
 /* home/reasons 
