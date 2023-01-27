@@ -196,6 +196,9 @@ a:hover, a:focus, a:active {
 
 /* What we aim to achieve */
 
+.impact-heading{
+  margin-top: 120px;
+}
 .w4w-achieve h3 {
   text-align: center;
   color: #8c41a3;
@@ -231,10 +234,19 @@ a:hover, a:focus, a:active {
   margin-bottom: 85px;
 }
 
+.col-title{
+  font-weight: bolder;
+}
+
+
 /* home/ about-us 
 ================================= */
 .about-us {
   margin: 30px 0;
+}
+
+.col-title{
+  font-weight: bolder;
 }
 
 .about-us-col {
