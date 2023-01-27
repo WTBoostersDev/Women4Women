@@ -187,6 +187,13 @@ a:hover, a:focus, a:active {
   margin-top: 80px;
 }
 
+.about-us-col:hover{
+    cursor: default;
+    padding: 40px 20px 40px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
 /* What we aim to achieve */
 .w4w-achieve .aoi {
   text-align: center;
