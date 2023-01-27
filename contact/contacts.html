@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Women4Women organization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="/contact/contacts.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <div class="top-nav-left">
+                <img src="/contact/Women4women_logo.jpg" class="logo">
+            </div>
+            <div class="top-nav-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Causes</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="/contact/contacts.html">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div id="container">
+        <div class="overview-image">
+            <h1>Contact us</h1>
+            <div class="underline1"></div>
+            <p>Reach out to us and find out more about our initiatives</p>
+        </div>
+        <form  class="form-wrap">
+            <div class="form-section">
+                <div class="title">
+                    <h3>Contact Form</h3>
+                    <div class="underline2"></div>
+                </div>
+                <div class="input-container">
+                    <div class="input">
+                        <label for="name"></label>
+                        <input type="text" id="" placeholder="Name*">
+                    </div>
+                    <div class="input">
+                        <label for="email"></label>
+                        <input type="email" id="" placeholder="E-mail*" size="20">
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="" id="" cols="80" rows="10" placeholder="Message*"></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </div>
+            <div class="info">
+                <div class="title">
+                    <h3>Women4Women Contacts</h3>
+                    <div class="underline2"></div>
+                </div>
+                <div class="content">
+                    <p>
+                        <b>Women4Women</b> 
+                        is a non-profit organization located in several African countries with the aim of supporting women.
+                    </p>
+                    <div class="contact">
+                        <ul>
+                            <li>
+                                <i class='bx bxs-map'></i>
+                                <h3>135 Lagos, Nigeria</h1>
+                            </li>
+                            <li>
+                                <i class='bx bx-phone'></i>
+                                <h3>00 210 25 55 55 11</h1>
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope'></i>
+                                <h3>Women4Women@gmail.com</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <footer class="footer">
+            <div id="map">
+                <script>
+                    var coords = [5.65, 26.17];
+                    var zoomLevel = 3;
+                    var map = L.map('map').setView(coords, zoomLevel);
+                    var tiles = 'http://acetate.geoiq.com/tiles/acetate-hillshading/';
+                    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                    }).addTo(map);
+                    const GirlIcon = L.icon({
+                        iconUrl: '/contact/girl-svgrepo-com.svg',
+                        iconSize: [20, 20],
+                    });
+                    const marker1 = L.marker([9.08, 8.68], { icon: GirlIcon }).bindPopup('Nigeria').addTo(map);
+                    const marker2 = L.marker([0, 37.91], { icon: GirlIcon }).bindPopup('Kenya').addTo(map);
+                    const marker3 = L.marker([-30.56, 22.94], { icon: GirlIcon }).bindPopup('South Africa').addTo(map);
+                    const marker4 = L.marker([7.95, 1.02], { icon: GirlIcon }).bindPopup('Ghana').addTo(map);
+                </script>
+            </div>
+
+    <div class="main-footer">
+    <section class="our-footer">
+        <table>
+          <tr>
+            <td><a href="\contact\contacts.html">Questions? Contact us.</a></td>
+          </tr>
+  
+          <tr>
+            <td>FAQ</td>
+            <td>Help Center</td>
+            <td>Account</td>
+            <td>Code of conduct</td>
+          </tr>
+  
+          <tr>
+            <td>Investor relations</td>
+            <td>Jobs</td>
+            <td>Mentoring</td>
+            <td>Empower women</td>
+          </tr>
+  
+          <tr>
+            <td>Privacy</td>
+            <td>Cookie Preferences</td>
+            <td>Corporate Information</td>
+            <td>Contact Us</td>
+          </tr>
+  
+          <tr>
+            <td>Donate</td>
+            <td>Legal Notices</td>
+            <td>Collaborate</td>
+          </tr>
+  
+          <tr>
+            <td>Women4Women</td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <ul class="list-unstyled list-inline header-contact">
+                <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
+                 <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@women4women.org">contact@women4women.org</a> </li>
+           </ul>
+            </td>
+
+            <td colspan="2" style="text-align: right;"> 
+              <ul class="list-unstyled list-inline header-social">
+
+                <li> <a href="#" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+                <li> <a href="#" target="_blank"> <i class="fa fa-twitter"></i>  </a> </li>
+                <li> <a href="#" target="_blank"> <i class="fa fa-google"></i>  </a> </li>
+                <li> <a href="#" target="_blank"> <i class="fa fa-youtube"></i>  </a> </li>
+                <li> <a href="#" target="_blank"> <i class="fa fa fa-pinterest-p"></i>  </a> </li>
+           </ul> 
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <div class="footer-bottom">
+          <div class="container text-center">
+              Women4Women @ copyrights 2023 - by <a href="http://www.ouarmedia.com" target="_blank">Codeblazers</a>
+          </div>
+      </div>
+    </div>
+
+    </footer>
+</body>
+
+</html>
