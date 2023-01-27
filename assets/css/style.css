@@ -514,6 +514,10 @@ a:hover, a:focus, a:active {
   margin: 0 auto;
 }
 
+.text-center {
+  padding-bottom: 20px;
+}
+
 /* Pages 
 ================================= */
 .page-heading {
