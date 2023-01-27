@@ -208,14 +208,120 @@ a:hover {
 
 #map { 
   width:100%; 
-  height: 200px; 
+  height: 450px; 
 }
 
-.footer-contacts{
-  background-color: #b65fcf;
-  height: 50px;
+/* footer 
+================================= */
+.footer-top {
+  background: #b65fcf;
+  height: 40px;
 }
 
-.bottom-nav{
-  text-align: center;
+.main-footer {
+  background: #b65fcf;
+  color: #fff;
+}
+.main-footer .footer-main {
+  padding: 30px 0;
+}
+.main-footer .footer-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main-footer .footer-title .title-under {
+  background: #fff;
+  margin: 15px 0;
+  text-align: left;
+}
+.main-footer .footer-title .title-under:after {
+  margin: 0;
+  background: #fff;
+}
+.main-footer .footer-content {
+  text-align: justify;
+  font-size: 13px;
+}
+.main-footer .tweet {
+  font-size: 13px;
+}
+.main-footer .tweet:after {
+  content: "";
+  height: 1px;
+  display: block;
+  background: #115c9b;
+  width: 150px;
+  margin: 15px auto;
+}
+.main-footer .tweet:last-child:after {
+  display: none;
+}
+
+.footer-bottom {
+  background: #b65fcf;
+  padding: 3px;
+  align-items: center;
+}
+.footer-bottom .row{
+  background: #b65fcf;
+  padding: 3px;
+}
+.footer-form .form-group {
+  margin-bottom: 5px;
+}
+.footer-form .form-control {
+  background: #b65fcf;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  resize: none;
+}
+.footer-form .btn-submit {
+  border-radius: 0;
+  background: #b65fcf;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  -webkit-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+.footer-form .btn-submit:hover {
+  background: #fff;
+}
+.footer-form input:-moz-placeholder,
+.footer-form textarea:-moz-placeholder {
+  color: #fff;
+}
+.footer-form input::-moz-placeholder,
+.footer-form textarea::-moz-placeholder {
+  color: #fff;
+}
+.footer-form input:-ms-input-placeholder,
+.footer-form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.footer-form input::-webkit-input-placeholder,
+.footer-form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+.our-footer {
+  padding: 50px 0;
+}
+
+.our-footer td {
+  padding: 8px;
+}
+
+.our-footer table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-center {
+  padding-bottom: 20px;
 }
