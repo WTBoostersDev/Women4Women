@@ -237,6 +237,10 @@ a:hover, a:focus, a:active {
   margin-bottom: 85px;
 }
 
+.resolve-heading{
+  padding: 90px 0px 20px;
+}
+
 /* home/ about-us 
 ================================= */
 .about-us {
