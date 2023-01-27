@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #b65fcf;
+  box-sizing: border-box;
+}
+.logo{
+  width: 160px;
+  height: 33px;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+nav ul {
+  align-items: center;
+  list-style-type: none;
+  background-color: #b65fcf;
+  height: 70px;
+}
+
+li {
+  display: inline;
+  align-items: flex-end;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+
+.top-nav-right{
+float: right;
+line-height: 70px;
+font-size: 16px;
+margin-right: 100px;
+text-transform: uppercase;
+display: flex;
+}
+
+.top-nav-left{
+  float: left;
+  margin-top: 20px;
+  margin-left:100px;
+  display: flex;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom:1px solid white;
+}
+
+#container{
+  margin-top: 70px;
+}
+
+.overview-image{
+  background-image: url("/contact/african girl eye.jpg");
+  background-size: cover;
+  min-height: 100px;
+  color: #fff;
+  padding: 25px 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 1.1;
+  white-space: nowrap;
+  
+}
+
+.overview-image h1{
+  font-size: 36px ;
+  font-weight: 500;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  
+}
+
+.contact{
+  margin-top: 25px;
+}
+
+.contact li{
+  margin: 0;
+  display: flex;
+}
+
+.contact i{
+  font-size: 25px;
+  float: left;
+}
+.contact h3{
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.title{
+  margin-left:35px;
+  height: 60px;
+  font-size: 18px ;
+  font-weight: 500;
+  color: inherit;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.underline1{
+  width: 30%;
+  height: 1px;
+  background-color:white;
+  position: relative;
+  margin-bottom: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.underline2{
+  width: 35%;
+  height: 1px;
+  background-color: #b65fcf;
+  position: relative;
+  margin:10px 0 10px 0;
+}
+
+.input {
+  color: #ababab;
+  font-size: smaller;
+  margin-top: 5px;
+  display:inline-block;
+  background-color: red;
+  width: 100%;
+  margin-left:35px;
+  flex-wrap: wrap;
+}
+
+.input :hover{
+  border-color: #b65fcf;
+}
+
+.input-container{
+  display: flex;
+}
+
+.input-container input{
+  width: 100%;
+  height: 30px;
+}
+
+.message {
+  color: #ababab;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  margin-left:35px;
+}
+.message :hover{
+  border-color: #b65fcf;
+}
+
+
+.form-wrap{
+  display: flex;
+}
+
+.info{
+  margin-left:15px;
+}
+
+.content{
+  margin-left:35px;
+}
+
+.form-section{
+  margin-left:15px;
+}
+
+.form-section button{
+  background-color: #b65fcf;
+  border: 1px solid #b65fcf;
+  width: 30%;
+  float: right;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.form-wrap button:hover {
+  color: #b65fcf;
+  background-color: white;
+  border: 1px solid #b65fcf;
+  
+}
+
+#map { 
+  width:100%; 
+  height: 200px; 
+}
+
+.footer-contacts{
+  background-color: #b65fcf;
+  height: 50px;
+}
+
+.bottom-nav{
+  text-align: center;
+}
