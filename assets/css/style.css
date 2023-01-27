@@ -236,6 +236,10 @@ a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
+.col-title{
+  font-weight: bolder;
+}
+
 .about-us-col {
   height: 325px;
   padding: 25px;
