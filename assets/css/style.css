@@ -500,6 +500,16 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
+
+.our-footer {
+  padding: 50px 0;
+}
+
+.our-footer table {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* Pages 
 ================================= */
 .page-heading {
