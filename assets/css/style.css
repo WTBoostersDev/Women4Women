@@ -505,6 +505,10 @@ a:hover, a:focus, a:active {
   padding: 50px 0;
 }
 
+.our-footer td {
+  padding: 8px;
+}
+
 .our-footer table {
   width: 60%;
   margin: 0 auto;
