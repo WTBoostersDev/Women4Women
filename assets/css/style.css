@@ -238,7 +238,7 @@ a:hover, a:focus, a:active {
 }
 
 .about-us-col {
-  height: 325px;
+  height: 400px;
   padding: 25px;
   text-align: center;
   background-color: #b65fcf;
@@ -257,7 +257,7 @@ a:hover, a:focus, a:active {
 }
 .about-us-col .col-details {
   text-align: justify;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   min-height: 80px;
 }
 
