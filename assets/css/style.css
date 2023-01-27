@@ -196,19 +196,13 @@ a:hover, a:focus, a:active {
 }
 
 /* What we aim to achieve */
-.w4w-achieve .aoi {
-  text-align: center;
-  color: #8c41a3;
-  font-size: 33px;
-  font-weight: 600;
-  margin: 80px 0 30px 0;
-}
 
 .w4w-achieve h3 {
   text-align: center;
   color: #8c41a3;
   font-size: 40px;
   font-weight: 600;
+  padding: 20px 0;
 }
 
 .w4w-aims img {
