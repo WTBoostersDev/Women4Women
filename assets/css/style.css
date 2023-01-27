@@ -135,7 +135,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .carousel {
-  padding-top: 70px;
+  padding-top: 60px;
 }
 .carousel-home .slider-img {
   width: 1900px;
@@ -185,6 +185,13 @@ a:hover, a:focus, a:active {
 
 .home-abt {
   margin-top: 80px;
+}
+
+.about-us-col:hover{
+    cursor: default;
+    padding: 40px 20px 40px;
+    margin: 10px;
+    transition: 0.5s;
 }
 
 /* What we aim to achieve */
@@ -261,7 +268,7 @@ a:hover, a:focus, a:active {
 }
 
 .top-img {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 /* home/reasons 
@@ -390,6 +397,10 @@ a:hover, a:focus, a:active {
 }
 .team-member .member-position {
   padding: 0 15px 5px;
+}
+
+.our-team {
+  margin: 70px 0;
 }
 
 /* footer 
