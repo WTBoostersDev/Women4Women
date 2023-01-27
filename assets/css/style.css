@@ -764,7 +764,7 @@ form .alert {
   left: 0;
   z-index: 99;
   color: #fff;
-  background: #b65fcf;
+  background: rgba(234, 0, 255, 0.5);
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -moz-transition: all, 0.6s;
