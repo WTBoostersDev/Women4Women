@@ -399,6 +399,10 @@ a:hover, a:focus, a:active {
   padding: 0 15px 5px;
 }
 
+.our-team {
+  margin: 70px 0;
+}
+
 /* footer 
 ================================= */
 .footer-top {
