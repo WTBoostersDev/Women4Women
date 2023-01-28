@@ -340,6 +340,11 @@ a:hover, a:focus, a:active {
 
 /* home/causes
 ================================= */
+.col-md-3{
+
+  width: 33.33%
+}
+  
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -348,9 +353,10 @@ a:hover, a:focus, a:active {
   -o-transition: all, 0.3s;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  
 }
 .cause .cause-progress {
-  margin: 0 10px 15px;
+  margin: 0 30px 30px;
   border: 1px solid #b65fcf;
   border-radius: 3px;
 }
@@ -359,20 +365,21 @@ a:hover, a:focus, a:active {
   box-shadow: none;
 }
 .cause .cause-img {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .cause .cause-title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 .cause .cause-details {
   text-align: justify;
-  padding: 0 15px;
-  font-size: 13px;
+  padding: 0 10px;
+  font-size: 20px;
   margin-bottom: 15px;
   min-height: 115px;
+  
 }
 .cause:hover {
   background: #f0f0f0;
