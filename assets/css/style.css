@@ -436,7 +436,7 @@ a:hover, a:focus, a:active {
   content: "";
   height: 1px;
   display: block;
-  background: #115c9b;
+  background: #b65fcf;
   width: 150px;
   margin: 15px auto;
 }
@@ -678,7 +678,7 @@ form .alert {
 }
 
 .table-style-2 thead {
-  background: #115c9b;
+  background: #b65fcf;
   border-bottom: 1px solid #b65fcf;
   color: #fff;
 }
