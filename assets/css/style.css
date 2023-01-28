@@ -517,7 +517,7 @@ a:hover, a:focus, a:active {
 /* Pages 
 ================================= */
 .page-heading {
-  background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
+  background: url('../images/african girl eye.jpg?1428795369') no-repeat center;
   background-size: cover;
   min-height: 190px;
   color: #fff;
@@ -527,7 +527,7 @@ a:hover, a:focus, a:active {
 .page-heading .title-under {
   background: #fff;
 }
-
+D:\self_development\Women tech\Woment4Women\Women4Women\assets\images\african girl eye.jpg
 .page-description {
   font-size: 18px;
 }
@@ -573,10 +573,10 @@ a:hover, a:focus, a:active {
 
 /* contact 
 ================================= */
-.contact-map {
+/* .contact-map {
   height: 350px;
   background: #ccc;
-}
+} */
 
 form .alert {
   display: none;
@@ -1155,4 +1155,9 @@ form .alert {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+}
+
+#map { 
+  width:100%; 
+  height: 350px;
 }
