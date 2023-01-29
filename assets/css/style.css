@@ -335,6 +335,9 @@ a:hover, a:focus, a:active {
 
 /* home/causes
 ================================= */
+.col-md-3{
+  width: 33.33%;
+}
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
