@@ -955,6 +955,11 @@ form .alert {
   .col-form {
     margin-bottom: 25px;
   }
+
+  .w4w-aims .aim1 {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 /* Extra Small devices (tablets, 480px and Down) */
 @media (max-width: 480px) {
