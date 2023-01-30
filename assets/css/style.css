@@ -125,6 +125,7 @@ a:hover, a:focus, a:active {
 .navbar-header .logo {
   width: 160px;
   height: 33px;
+  alt:"Cinque Terre";
 }
 .navbar-brand
 
@@ -195,19 +196,13 @@ a:hover, a:focus, a:active {
 }
 
 /* What we aim to achieve */
-.w4w-achieve .aoi {
-  text-align: center;
-  color: #8c41a3;
-  font-size: 33px;
-  font-weight: 600;
-  margin: 80px 0 30px 0;
-}
 
 .w4w-achieve h3 {
   text-align: center;
   color: #8c41a3;
   font-size: 40px;
   font-weight: 600;
+  padding: 20px 0;
 }
 
 .w4w-aims img {
@@ -244,7 +239,7 @@ a:hover, a:focus, a:active {
 }
 
 .about-us-col {
-  height: 325px;
+  height: 400px;
   padding: 25px;
   text-align: center;
   background-color: #b65fcf;
@@ -263,7 +258,7 @@ a:hover, a:focus, a:active {
 }
 .about-us-col .col-details {
   text-align: justify;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   min-height: 80px;
 }
 
@@ -340,6 +335,10 @@ a:hover, a:focus, a:active {
 
 /* home/causes
 ================================= */
+.cause-tit {
+  width: 33.33%;
+}
+
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -441,7 +440,7 @@ a:hover, a:focus, a:active {
   content: "";
   height: 1px;
   display: block;
-  background: #115c9b;
+  background: #b65fcf;
   width: 150px;
   margin: 15px auto;
 }
@@ -450,7 +449,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #b65fcf;
+  background: #8a4a9c;
   padding: 3px;
   align-items: center;
 }
@@ -500,10 +499,29 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
+
+.our-footer {
+  padding: 50px 0;
+}
+
+.our-footer td {
+  padding: 8px;
+}
+
+.our-footer table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-center {
+  padding: 20px;
+}
+
+
 /* Pages 
 ================================= */
 .page-heading {
-  background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
+  background: url('../images/african girl eye.jpg?1428795369') no-repeat center;
   background-size: cover;
   min-height: 190px;
   color: #fff;
@@ -513,7 +531,7 @@ a:hover, a:focus, a:active {
 .page-heading .title-under {
   background: #fff;
 }
-
+D:\self_development\Women tech\Woment4Women\Women4Women\assets\images\african girl eye.jpg
 .page-description {
   font-size: 18px;
 }
@@ -559,10 +577,10 @@ a:hover, a:focus, a:active {
 
 /* contact 
 ================================= */
-.contact-map {
+/* .contact-map {
   height: 350px;
   background: #ccc;
-}
+} */
 
 form .alert {
   display: none;
@@ -664,7 +682,7 @@ form .alert {
 }
 
 .table-style-2 thead {
-  background: #115c9b;
+  background: #b65fcf;
   border-bottom: 1px solid #b65fcf;
   color: #fff;
 }
@@ -751,7 +769,7 @@ form .alert {
   left: 0;
   z-index: 99;
   color: #fff;
-  background: #b65fcf;
+  background: rgba(234, 0, 255, 0.5);
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -moz-transition: all, 0.6s;
@@ -936,6 +954,11 @@ form .alert {
 
   .col-form {
     margin-bottom: 25px;
+  }
+
+  .w4w-aims .aim1 {
+    flex-direction: column;
+    width: 100%;
   }
 }
 /* Extra Small devices (tablets, 480px and Down) */
@@ -1141,4 +1164,9 @@ form .alert {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+}
+
+#map { 
+  width:100%; 
+  height: 350px;
 }
