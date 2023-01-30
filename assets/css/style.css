@@ -341,10 +341,8 @@ a:hover, a:focus, a:active {
 /* home/causes
 ================================= */
 .col-md-3{
-
-  width: 33.33%
+  width: 33.3%;
 }
-  
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -375,8 +373,8 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-details {
   text-align: justify;
-  padding: 0 30px;
-  font-size: 13px;
+  padding: 0 20px;
+  font-size: 18px;
   margin-bottom: 15px;
   min-height: 115px;
   
