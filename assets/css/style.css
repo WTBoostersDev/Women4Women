@@ -335,10 +335,16 @@ a:hover, a:focus, a:active {
 
 /* home/causes
 ================================= */
+<<<<<<< HEAD
+.col-md-3{
+  width: 33.3%;
+}
+=======
 .cause-tit {
   width: 33.33%;
 }
 
+>>>>>>> b72510fe08f380e40c855944f07a17bd64f2c3e9
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -368,8 +374,13 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-details {
   text-align: justify;
+<<<<<<< HEAD
+  padding: 0 20px;
+  font-size: 18px;
+=======
   padding: 0 15px;
   font-size: 13px;
+>>>>>>> b72510fe08f380e40c855944f07a17bd64f2c3e9
   margin-bottom: 15px;
   min-height: 115px;
 }
