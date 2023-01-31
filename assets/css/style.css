@@ -12,6 +12,7 @@
 body {
   font-family: "Open sans", sans-serif;
   color: #b65fcf;
+  overflow-x: hidden;
 }
 
 h1,
@@ -266,6 +267,15 @@ a:hover, a:focus, a:active {
   padding-top: 50px;
 }
 
+.pic-group {
+  margin-bottom: 50px;
+}
+
+.last-pic {
+  display: flex;
+  justify-content: center;
+}
+
 /* home/reasons 
 ================================= */
 .home-reasons {
@@ -335,16 +345,9 @@ a:hover, a:focus, a:active {
 
 /* home/causes
 ================================= */
-<<<<<<< HEAD
-.col-md-3{
-  width: 33.3%;
-}
-=======
 .cause-tit {
   width: 33.33%;
 }
-
->>>>>>> b72510fe08f380e40c855944f07a17bd64f2c3e9
 .cause {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -355,7 +358,7 @@ a:hover, a:focus, a:active {
   transition: all, 0.3s;
 }
 .cause .cause-progress {
-  margin: 0 10px 15px;
+  margin: 0 8px 15px;
   border: 1px solid #b65fcf;
   border-radius: 3px;
 }
@@ -365,8 +368,11 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-img {
   margin-bottom: 15px;
-  width: 100%;
+  width: 358px;
+  height: 268px;
 }
+
+
 .cause .cause-title {
   text-align: center;
   margin-bottom: 10px;
@@ -374,13 +380,8 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-details {
   text-align: justify;
-<<<<<<< HEAD
-  padding: 0 20px;
-  font-size: 18px;
-=======
   padding: 0 15px;
   font-size: 13px;
->>>>>>> b72510fe08f380e40c855944f07a17bd64f2c3e9
   margin-bottom: 15px;
   min-height: 115px;
 }
@@ -411,6 +412,11 @@ a:hover, a:focus, a:active {
 
 .our-team {
   margin: 70px 0;
+}
+
+.abt-img {
+  width: 261px;
+  height: 230px;
 }
 
 /* footer 
