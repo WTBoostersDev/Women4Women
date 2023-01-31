@@ -267,6 +267,15 @@ a:hover, a:focus, a:active {
   padding-top: 50px;
 }
 
+.pic-group {
+  margin-bottom: 50px;
+}
+
+.last-pic {
+  display: flex;
+  justify-content: center;
+}
+
 /* home/reasons 
 ================================= */
 .home-reasons {
