@@ -368,8 +368,8 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-img {
   margin-bottom: 15px;
-  width: 358px;
-  height: 268px;
+  width: 100%;
+  height: 25rem;
 }
 
 
