@@ -1,6 +1,6 @@
 # Women4Women
-This project is a collaborative effort by the members of Group 1 (The Codeblazers) from the Woman Techsters cohort 2.4 bootcamp organized by tech4dev.
-# About the project
+>This project is a collaborative effort by the members of Group 1 (The Codeblazers) from the Woman Techsters cohort 2.4 bootcamp organized by tech4dev.
+## About the project
 Women for Women is founded on Sustainable Development Goal 5- Gender 
 Equality; which aims to achieve gender equality and empower all girls and women.
 Spurring from our motivation and determination as a team of women, the project will 
@@ -11,7 +11,7 @@ well-being for all ages, and
 equitable education, while promoting lifelong learning opportunities for all.
 In line with the aforementioned goals, we will channel our resources and abilities 
 towards women in particular.
-# Members
+## Members
 * [Taofeekat Olorunkosebi](https://github.com/Taofeeqah) - Team Lead 
 * [Itunu Adeniran](https://github.com/Itunuolade) - Team Member 
 * [Matshepo Lebese](https://github.com/CoolMats) - Team Member 
@@ -23,3 +23,5 @@ towards women in particular.
 * [Zeddy Cherotich](https://github.com/Zeddymuge) - Team Member
 * [Glorious Olajire](https://github.com/Korious) - Team Member
 * [Jessica Nana Esi Owusu-Ansah](https://github.com/Jessicajerry15) - Team Member
+
+
