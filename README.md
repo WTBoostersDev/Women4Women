@@ -1,4 +1,15 @@
 # Women4Women
+# About the project
+Women for Women is founded on Sustainable Development Goal 5- Gender 
+Equality; which aims to achieve gender equality and empower all girls and women.
+Spurring from our motivation and determination as a team of women, the project will 
+encompass;
+* Sustainable Development Goal 3, which aims to ensure healthy lives and 
+well-being for all ages, and
+* Sustainable Development Goal 4, which aims at ensuring inclusive and 
+equitable education, while promoting lifelong learning opportunities for all.
+In line with the aforementioned goals, we will channel our resources and abilities 
+towards women in particular.
 # Members
 * [Taofeekat Olorunkosebi](https://github.com/Taofeeqah) - Team Lead 
 * [Itunu Adeniran](https://github.com/Itunuolade) - Team Member 
