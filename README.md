@@ -1,4 +1,5 @@
 # Women4Women
+This project is a collaborative effort by the members of Group 1 (The Codeblazers) from the Woman Techsters cohort 2.4 bootcamp organized by tech4dev.
 # About the project
 Women for Women is founded on Sustainable Development Goal 5- Gender 
 Equality; which aims to achieve gender equality and empower all girls and women.
