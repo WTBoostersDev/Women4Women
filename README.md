@@ -1,3 +1,10 @@
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/wtboostersdev/women4women)]
+[![Pull requests](https://img.shields.io/github/issues-pr-closed/WTBoostersDev/women4women)]
+[![Commit activity](https://img.shields.io/github/commit-activity/w/wtboostersdev/women4women)]
+[![GitHub forks](https://img.shields.io/github/forks/wtboostersdev/women4women?style=social)]
+[![GitHub Contributors](https://img.shields.io/github/contributors/wtboostersdev/women4women)]
+
+
 # Women4Women
 >This project is a collaborative effort by the members of Group 1 (The Codeblazers) from the Woman Techsters cohort 2.4 bootcamp organized by tech4dev.
 ## About the project
@@ -9,8 +16,8 @@ encompass;
 well-being for all ages, and
 * Sustainable Development Goal 4, which aims at ensuring inclusive and 
 equitable education, while promoting lifelong learning opportunities for all.
-In line with the aforementioned goals, we will channel our resources and abilities 
-towards women in particular.
+In line with the aforementioned goals, we will channel our resources and abilities towards women in particular.
+
 ## Members
 * [Taofeekat Olorunkosebi](https://github.com/Taofeeqah) - Team Lead 
 * [Itunu Adeniran](https://github.com/Itunuolade) - Team Member 
