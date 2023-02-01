@@ -40,6 +40,7 @@ a:hover, a:focus, a:active {
   color: #fff;
   position: fixed;
   width: 100%;
+  font-family: "Dosis", sans-serif;
 }
 
 .navbar-top {
